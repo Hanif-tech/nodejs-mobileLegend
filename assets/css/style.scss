@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(236, 236, 236);
+}
+
+.container-bg {
+  position: relative;
+  width: 100%;
+  height: 607px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
+    background-size: cover;
+  }
+  a {
+    text-decoration: none;
+    position: absolute;
+    background-color: rgb(189, 226, 178);
+    padding: 16px 18px;
+    color: rgb(41, 40, 40);
+    border: none;
+    border-radius: 8px;
+    top: 80%;
+    font-weight: 700;
+    box-shadow: 0 0 2px rgb(53, 53, 53);
+    cursor: pointer;
+    right: 45%;
+    z-index: 10;
+    &:active {
+      box-shadow: 0 0 10px rgb(12, 12, 12);
+    }
+  }
+}
+
+.body-index {
+  //   background-color: rgb(255, 255, 255);
+  background-image: url("../img/backgroundHome.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  margin-top: 20px;
+  background-color: rgba(216, 216, 216, 0.562);
+  h1 {
+    text-shadow: 0 0 5px rgb(134, 134, 134);
+  }
+  h2 {
+    text-shadow: 0 0 5px rgb(129, 129, 129);
+  }
+}

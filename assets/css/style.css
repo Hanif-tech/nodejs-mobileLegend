@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ececec;
+}
+
+.container-bg {
+  position: relative;
+  width: 100%;
+  height: 607px;
+}
+
+.container-bg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 0px;
+     object-position: 0px 0px;
+  background-size: cover;
+}
+
+.container-bg a {
+  text-decoration: none;
+  position: absolute;
+  background-color: #bde2b2;
+  padding: 16px 18px;
+  color: #292828;
+  border: none;
+  border-radius: 8px;
+  top: 80%;
+  font-weight: 700;
+  -webkit-box-shadow: 0 0 2px #353535;
+          box-shadow: 0 0 2px #353535;
+  cursor: pointer;
+  right: 45%;
+  z-index: 10;
+}
+
+.container-bg a:active {
+  -webkit-box-shadow: 0 0 10px #0c0c0c;
+          box-shadow: 0 0 10px #0c0c0c;
+}
+
+.body-index {
+  background-image: url("../img/backgroundHome.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-top: 20px;
+  background-color: rgba(216, 216, 216, 0.562);
+}
+
+.container h1 {
+  text-shadow: 0 0 5px #868686;
+}
+
+.container h2 {
+  text-shadow: 0 0 5px #818181;
+}
+/*# sourceMappingURL=style.css.map */
