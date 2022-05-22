@@ -13,6 +13,7 @@ router.post("/add", (request, response) => {
     heroId: request.body.heroId,
   };
   console.log(data.heroId);
+
   Skill.addHeroById(data, response);
 });
 

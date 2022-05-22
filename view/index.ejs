@@ -31,7 +31,7 @@
             <a class="btn btn-primary me-3" href="/skill/<%= heroes.data[i].id %> ">Skills</a>
             <form action="/hero/delete" method="post">
               <input hidden type="text" name="id" value="<%= heroes.data[i].id %> " />
-              <button class="btn btn-primary" type="submit">Hapus</button>
+              <button class="btn btn-primary" type="submit" onclick="alert('Berhasil menghapus hero')">Hapus</button>
             </form>
           </td>
         </tr>
@@ -51,7 +51,7 @@
           <div id="namaHero" class="form-text">Masukkan role hero</div>
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" onclick="alert('Berhasil menambah hero')">Submit</button>
       </form>
     </div>
 

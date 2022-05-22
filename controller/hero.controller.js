@@ -15,7 +15,6 @@ router.post("/update", (request, response) => {
     name: request.body.name,
     role: request.body.role,
   };
-
   Hero.updateHeroById(data, response);
 });
 router.post("/add", (request, response) => {
